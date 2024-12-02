@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class menu {
 
-    public static final String[] MESES = {"enero" , "febrero" , "marzo" , "abril" , "mayo" , "junio","julio","agosto","septiembre","octubre","noviembre","diciembre"};
+    public static final String[] meses = {"enero" , "febrero" , "marzo" , "abril" , "mayo" , "junio","julio","agosto","septiembre","octubre","noviembre","diciembre"};
     public static void showMenu(){
         System.out.println("Bienvenida a mi aplicacion de contro de citas");
         System.out.println("Selecciona la opción deseada");
@@ -51,7 +51,7 @@ public class menu {
             switch (response){
                 case 1:
                     for (int i = 0; i <3 ; i++) {
-                        System.out.println((i+1) + "." + MESES[i]);
+                        System.out.println((i+1) + "." + meses[i]);
                     }
                     break;
                 case 2:
